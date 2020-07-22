@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://example.com/CatLove" version="1.0.0" viewmodes="maximized">
-    <tizen:application id="PaSoQzZBj7.CatLove" package="PaSoQzZBj7" required_version="4.0.0"/>
+    <tizen:application id="PaSoQzZBj7.CatLove" package="PaSoQzZBj7" required_version="4.0.0" ambient_support="enable"/>
     <tizen:category name="http://tizen.org/category/wearable_clock"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.shape.circle"/>
@@ -8,4 +8,5 @@
     <icon src="icon.png"/>
     <name>CatLove</name>
     <tizen:profile name="wearable"/>
+    <tizen:privilege name="http://tizen.org/privilege/alarm"/>
 </widget>
