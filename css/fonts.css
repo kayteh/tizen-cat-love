@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Seville2";
+  font-weight: bold;
+  src: url(../fonts/Seville-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Seville2";
+  font-weight: regular;
+  src: url(../fonts/Seville-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Seville2";
+  font-weight: lighter;
+  src: url(../fonts/Seville-Book.ttf);
+}
