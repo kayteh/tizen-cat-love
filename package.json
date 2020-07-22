@@ -1,0 +1,10 @@
+{
+  "name": "tizen-cat-love",
+  "private": true,
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  },
+  "scripts": {
+    "start": "tizen build-web && tizen package -t wgt -- .buildResult && tizen install -n .buildResult/*.wgt"
+  }
+}

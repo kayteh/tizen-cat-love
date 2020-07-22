@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+*.tmp
+*.wgt
+author-signature.xml
+signature1.xml
+.buildResult
