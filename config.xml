@@ -5,8 +5,10 @@
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.shape.circle"/>
     <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://tizen.org/feature/humanactivitymonitor"/>
     <icon src="icon.png"/>
     <name>CatLove</name>
     <tizen:profile name="wearable"/>
     <tizen:privilege name="http://tizen.org/privilege/alarm"/>
+    <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
 </widget>
