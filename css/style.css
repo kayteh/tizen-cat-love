@@ -110,7 +110,8 @@ td {
   letter-spacing: -0.04em;
 }
 
-.date {
+td.date {
+  text-align: center;
   font-size: 1.75rem;
 }
 
@@ -120,4 +121,16 @@ td {
   /* box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); */
   background-color: #ec5174;
   border: 2px solid #ec5174;
+}
+
+.ambient-mode .aod-hide {
+  display: none;
+}
+
+.ambient-mode .aod-invisible {
+  opacity: 0;
+}
+
+.ambient-mode .aod-on {
+  opacity: 0.7;
 }

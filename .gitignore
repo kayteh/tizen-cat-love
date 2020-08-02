@@ -108,3 +108,5 @@ dist
 author-signature.xml
 signature1.xml
 .buildResult
+
+js/local.config.js

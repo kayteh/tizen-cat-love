@@ -16,55 +16,57 @@
 
   <body>
     <div id="container">
-      <div id="background"></div>
-      <div class="bar-container">
+      <div id="background" class="aod-hide"></div>
+      <div class="bar-container aod-hide">
         <div class="bar color1"></div>
         <div class="bar color2"></div>
         <div class="bar color4"></div>
         <div class="bar color5"></div>
       </div>
 
-      <div id="overlay"></div>
+      <div id="overlay" class="aod-hide"></div>
 
       <div class="center-everything">
         <div class="stats-container">
           <table>
-            <tr>
+            <tr class="aod-invisible">
               <td colspan="2" style="font-family: serif; text-align: center;">
                 <img src="images/cat.png" class="image" />
               </td>
             </tr>
-            <tr>
+            <tr class="aod-invisible">
               <td>❤CAT</td>
               <td class="bold">LOVE</td>
             </tr>
-            <tr>
+            <tr class="aod-invisible">
               <td class="bold" id="daysSince">13.56</td>
               <td>DAYS</td>
             </tr>
             <tr>
-              <th colspan="2" class="time bold" id="clock">
+              <th colspan="2" class="time bold aod-on" id="clock">
                 24.00
               </th>
             </tr>
-            <tr class="date">
-              <td id="dateMonth">July</td>
-              <td class="bold" id="dateDay">25</td>
+            <tr class="aod-invisible">
+              <td class="date" colspan="2">
+                <span id="dateMonth">July</span>
+                <span class="bold" id="dateDay">25</span>
+              </td>
             </tr>
-            <tr>
-              <td class="bold">13000</td>
+            <tr class="aod-invisible">
+              <td class="bold" id="statsSteps">13000</td>
               <td>STEPPIES</td>
             </tr>
-            <tr>
-              <td class="bold">2000</td>
+            <tr class="aod-invisible">
+              <td class="bold" id="statsCals">2000</td>
               <td>BURNED</td>
             </tr>
-            <tr>
-              <td class="bold">128</td>
+            <tr class="aod-invisible">
+              <td class="bold" id="statsHR">128</td>
               <td>BPM</td>
             </tr>
-            <tr>
-              <td class="bold">35</td>
+            <tr class="aod-invisible">
+              <td class="bold" id="statsTemp">35</td>
               <td class="thin">F</td>
             </tr>
           </table>
@@ -72,8 +74,7 @@
       </div>
     </div>
 
-    <div id="viewportDebug"></div>
-
-    <script src="js/app.js"></script>
+    <script src="js/local.config.js"></script>
+    <script src="js/app.js" defer async></script>
   </body>
 </html>
